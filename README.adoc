@@ -1,5 +1,5 @@
 image:https://travis-ci.com/jhinrichsen/svn.svg?branch=master["Build Status", link="https://travis-ci.com/jhinrichsen/svn"]
-image:https://img.shields.io/github/release/jhinrichsen/svn.svg["Release", link="https://github.com/jhinrichsen/svn/releases/latest"]
+image:https://img.shields.io/github.com/release/jhinrichsen/svn.svg["Release", link="https://github.com/jhinrichsen/svn/releases/latest"]
 image:https://godoc.org/github.com/jhinrichsen/svn?status.svg["godoc", link="https://godoc.org/github.com/jhinrichsen/svn"]
 image:https://goreportcard.com/badge/github.com/jhinrichsen/svn["Go report card", link="https://goreportcard.com/report/github.com/jhinrichsen/svn"]
 image:https://golangci.com/badges/github.com/jhinrichsen/svn.svg["Golang CI", link="https://golangci.com/r/github.com/jhinrichsen/svn"]
