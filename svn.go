@@ -75,26 +75,38 @@ func (a *Repository) List(relpath string, xmlWriter io.Writer) ([]Entry, error) 
 }
 
 // Export will execute an `svn export` subcommand.
-func (a *Repository) Export(relpath string, into string, w io.Writer) error {
+// combined output of stdout and stderr will be written to w
+// absolute filenames will be written to notifier channel for each exported file
+func (a *Repository) Export(relpath string, into string, w io.Writer, notifier chan string) error {
 	log.Printf("exporting %s\n", relpath)
 	fp := a.FullPath(relpath)
-	// TODO force?
 	cmd := exec.Command("svn", "export", fp, into)
+
+	// stdout is written to both w and export notifier
+	pr, pw := io.Pipe()
+	mw := io.MultiWriter(w, pw)
+	cmd.Stdout = mw
+
+	// stderr is written to w
+	cmd.Stderr = w
+
 	log.Printf("executing %+v\n", cmd)
-	buf, err := cmd.CombinedOutput()
-	if w != nil {
-		io.Copy(w, bytes.NewReader(buf))
+	if err := cmd.Start(); err != nil {
+		return err
 	}
-	if err != nil {
-		fmt.Fprintf(os.Stdout, "%s", buf)
-		return fmt.Errorf("Cannot export %s into %s: %s", fp, into, err)
+
+	go exportNotifier(pr, notifier)
+
+	if err := cmd.Wait(); err != nil {
+		return fmt.Errorf("error exporting %q: %s", fp, err)
 	}
+	pw.Close()
 	return nil
 }
 
 // Notify  will report incoming exported filenames to notifier channel
 // channel will be closed once EOF is read
-func ExportNotifier(r io.Reader, c chan string) {
+func exportNotifier(r io.Reader, c chan string) {
 	sc := bufio.NewScanner(r)
 	for sc.Scan() {
 		line := sc.Text()

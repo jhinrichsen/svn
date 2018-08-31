@@ -2,7 +2,6 @@ package svn
 
 import (
 	"encoding/xml"
-	"io"
 	"io/ioutil"
 	"log"
 	"os"
@@ -108,7 +107,7 @@ func TestExportOnline(t *testing.T) {
 	}()
 	into := filepath.Join(d, "notes.txt")
 	from := "tags/1.9.9/CHANGES"
-	if err := r.Export(from, into, os.Stdout); err != nil {
+	if err := r.Export(from, into, os.Stdout, make(chan string)); err != nil {
 		t.Fatalf("error exporting %s into %s: %s", from, into, err)
 	}
 
@@ -141,19 +140,13 @@ func TestExportChannelOnline(t *testing.T) {
 
 	from := "tags/1.9.9"
 	into := filepath.Join(d, "1.9.9")
-
-	// Prepare multiwriter including export channel
-	ec := make(chan string)
-	pr, pw := io.Pipe()
-	mw := io.MultiWriter(os.Stdout, pw)
-	go ExportNotifier(pr, ec)
-	go func() {
-		if err := r.Export(from, into, mw); err != nil {
-			t.Fatal(err)
+	c := make(chan string)
+	go func(filenames chan string) {
+		for filename := range filenames {
+			log.Printf("exported %q\n", filename)
 		}
-		pw.Close()
-	}()
-	for filename := range ec {
-		log.Printf("exported %s\n", filename)
+	}(c)
+	if err := r.Export(from, into, os.Stdout, c); err != nil {
+		t.Fatalf("error exporting %s into %s: %s", from, into, err)
 	}
 }
