@@ -56,6 +56,7 @@ func (a *Repository) List(relpath string, xmlWriter io.Writer) ([]Entry, error) 
 	log.Printf("listing %s\n", relpath)
 	fp := a.FullPath(relpath)
 	cmd := exec.Command("svn", "list", "--xml", fp)
+	log.Printf("executing %+v\n", cmd)
 	buf, err := cmd.CombinedOutput()
 	if xmlWriter != nil {
 		io.Copy(xmlWriter, bytes.NewReader(buf))
@@ -80,4 +81,21 @@ func Since(entries []Entry, t time.Time) []Entry {
 		}
 	}
 	return es
+}
+
+func (a *Repository) Export(relpath string, into string, w io.Writer) error {
+	log.Printf("exporting %s\n", relpath)
+	fp := a.FullPath(relpath)
+	// TODO force?
+	cmd := exec.Command("svn", "export", fp, into)
+	log.Printf("executing %+v\n", cmd)
+	buf, err := cmd.CombinedOutput()
+	if w != nil {
+		io.Copy(w, bytes.NewReader(buf))
+	}
+	if err != nil {
+		fmt.Fprintf(os.Stdout, "%s", buf)
+		return fmt.Errorf("Cannot export %s into %s: %s", fp, into, err)
+	}
+	return nil
 }
