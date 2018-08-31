@@ -1,0 +1,30 @@
+image:https://travis-ci.org/jhinrichsen/svn.svg?branch=master["Build Status", link="https://travis-ci.org/jhinrichsen/svn"]
+image:https://img.shields.io/github/release/jhinrichsen/svn.svg["Release", link="https://github.com/jhinrichsen/svn/releases/latest"]
+image:https://godoc.org/github.com/jhinrichsen/svn?status.svg["godoc", link="https://godoc.org/github.com/jhinrichsen/svn"]
+image:https://goreportcard.com/badge/github.com/jhinrichsen/svn["Go report card", link="https://goreportcard.com/report/github.com/jhinrichsen/svn"]
+image:https://golangci.com/badges/github.com/jhinrichsen/svn.svg["Golang CI", link="https://golangci.com/r/github.com/jhinrichsen/svn"]
+
+= svn
+
+Wrapper for Apache Subversion. Uses svn's `xml` output instead of native C bindings.
+Calls external `svn` command, so you need a working Subversion client executable for your platform.
+Avoids CGO, and the hassle around `libsvn1`, `libapr1`, `libaprutil1`, `libc6`, `libsasl2`, `db5.3-util` e.a.
+
+= Installation
+
+== Prerequisites
+
+=== Build
+
+- Go (golang.org)
+
+=== Runtime
+
+- A working `svn` client
+
+=== Build from source
+
+----
+$ go get github.com/jhinrichsen/svn
+----
+

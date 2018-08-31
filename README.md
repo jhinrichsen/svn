@@ -1,2 +1,0 @@
-# svn
-Subversion wrapper

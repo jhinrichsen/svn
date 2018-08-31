@@ -1,0 +1,2107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://svn.apache.org/repos/asf/subversion/tags">
+<entry
+   kind="dir">
+<name>0.10.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.10.1</name>
+<commit
+   revision="842761">
+<author>rooneg</author>
+<date>2002-07-24T21:54:14.532532Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.10.2</name>
+<commit
+   revision="842762">
+<author>rooneg</author>
+<date>2002-07-24T21:58:43.044985Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.11.1</name>
+<commit
+   revision="842763">
+<author>rooneg</author>
+<date>2002-07-24T22:01:10.280768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.12.0</name>
+<commit
+   revision="842764">
+<author>rooneg</author>
+<date>2002-07-24T22:03:56.050994Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.13.0</name>
+<commit
+   revision="842765">
+<author>rooneg</author>
+<date>2002-07-24T22:05:51.955742Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.13.1</name>
+<commit
+   revision="842768">
+<author>rooneg</author>
+<date>2002-07-24T22:09:58.722052Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.13.2</name>
+<commit
+   revision="842769">
+<author>rooneg</author>
+<date>2002-07-24T22:11:56.743185Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.14.0</name>
+<commit
+   revision="842770">
+<author>rooneg</author>
+<date>2002-07-24T22:14:07.725102Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.14.1</name>
+<commit
+   revision="843004">
+<author>rooneg</author>
+<date>2002-08-10T01:45:08.999560Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.14.2</name>
+<commit
+   revision="843114">
+<author>kfogel</author>
+<date>2002-08-23T18:36:57.089293Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.14.3</name>
+<commit
+   revision="843278">
+<author>sussman</author>
+<date>2002-09-20T22:29:41.052902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.14.4</name>
+<commit
+   revision="843629">
+<author>kfogel</author>
+<date>2002-10-29T22:03:03.739231Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.14.5</name>
+<commit
+   revision="843725">
+<author>kfogel</author>
+<date>2002-11-04T23:00:36.774943Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.15.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.16.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.16.1</name>
+<commit
+   revision="844423">
+<author>kfogel</author>
+<date>2003-01-11T21:57:31.396809Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.17.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.17.1</name>
+<commit
+   revision="876621">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:37.640240Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.18.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.18.1</name>
+<commit
+   revision="876623">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:44.411997Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.19.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.19.1</name>
+<commit
+   revision="876620">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:34.233723Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.20.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.20.1</name>
+<commit
+   revision="876622">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:41.035405Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.21.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.22.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.22.1</name>
+<commit
+   revision="845949">
+<author>mprice</author>
+<date>2003-05-10T02:06:40.579049Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.22.2</name>
+<commit
+   revision="876618">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:27.254301Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.23.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.24.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.24.1</name>
+<commit
+   revision="846326">
+<author>mprice</author>
+<date>2003-06-16T14:03:56.572166Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.24.2</name>
+<commit
+   revision="846363">
+<author>mprice</author>
+<date>2003-06-18T19:20:29.692705Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.25.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.26.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.27.0</name>
+<commit
+   revision="876624">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:47.951902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.28.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.28.1</name>
+<commit
+   revision="846984">
+<author>pll</author>
+<date>2003-08-28T19:34:03.965625Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.28.2</name>
+<commit
+   revision="847021">
+<author>pll</author>
+<date>2003-09-02T15:07:31.144972Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.29.0</name>
+<commit
+   revision="847056">
+<author>pll</author>
+<date>2003-09-05T17:27:14.068105Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.30.0</name>
+<commit
+   revision="847258">
+<author>pll</author>
+<date>2003-09-24T18:19:15.524369Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.31.0</name>
+<commit
+   revision="876625">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:51.345406Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.32.0</name>
+<commit
+   revision="847563">
+<author>pll</author>
+<date>2003-10-23T00:37:33.129037Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.32.1</name>
+<commit
+   revision="847579">
+<author>pll</author>
+<date>2003-10-23T19:56:26.124814Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.33.0</name>
+<commit
+   revision="876626">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:54.885313Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.33.1</name>
+<commit
+   revision="876627">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:58.288735Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.34.0</name>
+<commit
+   revision="848006">
+<author>josander</author>
+<date>2003-12-03T23:54:02.396901Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.35.0</name>
+<commit
+   revision="876619">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:30.665507Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.35.1</name>
+<commit
+   revision="848137">
+<author>josander</author>
+<date>2003-12-20T17:20:43.954554Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.36.0</name>
+<commit
+   revision="848356">
+<author>josander</author>
+<date>2004-01-13T20:15:23.787033Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.37.0</name>
+<commit
+   revision="876617">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:23.819163Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.6.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.7.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.8.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>0.9.0</name>
+<commit
+   revision="849186">
+<author>cmpilato</author>
+<date>2004-03-18T17:35:35.355023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.0</name>
+<commit
+   revision="876616">
+<author>jrvernooij</author>
+<date>2009-03-14T15:17:20.437582Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.0-beta1</name>
+<commit
+   revision="848873">
+<author>kfogel</author>
+<date>2004-02-21T06:36:04.043633Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.1</name>
+<commit
+   revision="849099">
+<author>kfogel</author>
+<date>2004-03-12T21:28:43.491462Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.2</name>
+<commit
+   revision="849502">
+<author>breser</author>
+<date>2004-04-19T17:39:40.097140Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.3</name>
+<commit
+   revision="849855">
+<author>breser</author>
+<date>2004-05-19T09:55:39.353895Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.4</name>
+<commit
+   revision="849921">
+<author>breser</author>
+<date>2004-05-21T23:06:41.799322Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.5</name>
+<commit
+   revision="850032">
+<author>breser</author>
+<date>2004-06-10T19:43:47.138076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.6</name>
+<commit
+   revision="850438">
+<author>breser</author>
+<date>2004-07-19T22:46:59.763885Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.7</name>
+<commit
+   revision="851111">
+<author>breser</author>
+<date>2004-09-17T23:55:32.403226Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.8</name>
+<commit
+   revision="851181">
+<author>breser</author>
+<date>2004-09-23T01:49:25.202879Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.0.9</name>
+<commit
+   revision="851453">
+<author>breser</author>
+<date>2004-10-14T01:44:47.851441Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.0</name>
+<commit
+   revision="851263">
+<author>breser</author>
+<date>2004-09-30T04:30:31.087976Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.0-rc1</name>
+<commit
+   revision="850817">
+<author>breser</author>
+<date>2004-08-27T17:13:44.944796Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.0-rc2</name>
+<commit
+   revision="850818">
+<author>breser</author>
+<date>2004-08-27T17:15:46.475832Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.0-rc3</name>
+<commit
+   revision="851048">
+<author>breser</author>
+<date>2004-09-14T21:26:26.298785Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.0-rc4</name>
+<commit
+   revision="851188">
+<author>breser</author>
+<date>2004-09-23T05:13:36.698442Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.1</name>
+<commit
+   revision="851669">
+<author>ghudson</author>
+<date>2004-10-23T16:15:02.547800Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.2</name>
+<commit
+   revision="852546">
+<author>breser</author>
+<date>2004-12-21T03:51:38.158826Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.3</name>
+<commit
+   revision="852814">
+<author>breser</author>
+<date>2005-01-15T01:07:11.034923Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.1.4</name>
+<commit
+   revision="853919">
+<author>jerenkrantz</author>
+<date>2005-04-01T22:30:42.403287Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.0</name>
+<commit
+   revision="1828867">
+<author>julianfoad</author>
+<date>2018-04-11T07:00:33.547290Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.0-alpha1</name>
+<commit
+   revision="1783222">
+<author>stsp</author>
+<date>2017-02-16T14:14:13.610263Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.0-alpha2</name>
+<commit
+   revision="1783884">
+<author>stsp</author>
+<date>2017-02-21T12:45:44.689535Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.0-alpha3</name>
+<commit
+   revision="1802401">
+<author>danielsh</author>
+<date>2017-07-19T14:55:55.740815Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.0-rc1</name>
+<commit
+   revision="1824754">
+<author>julianfoad</author>
+<date>2018-02-19T14:46:07.832267Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.0-rc2</name>
+<commit
+   revision="1827984">
+<author>julianfoad</author>
+<date>2018-03-29T12:52:14.496755Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.1</name>
+<commit
+   revision="1835805">
+<author>julianfoad</author>
+<date>2018-07-13T10:06:03.920475Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.10.2</name>
+<commit
+   revision="1835935">
+<author>julianfoad</author>
+<date>2018-07-14T20:43:53.784471Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.0</name>
+<commit
+   revision="854882">
+<author>breser</author>
+<date>2005-05-23T18:08:30.833687Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.0-rc1</name>
+<commit
+   revision="854093">
+<author>breser</author>
+<date>2005-04-07T20:29:01.282548Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.0-rc2</name>
+<commit
+   revision="854512">
+<author>breser</author>
+<date>2005-04-25T18:45:40.811701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.0-rc3</name>
+<commit
+   revision="854753">
+<author>breser</author>
+<date>2005-05-10T23:24:11.081938Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.0-rc4</name>
+<commit
+   revision="854800">
+<author>breser</author>
+<date>2005-05-13T18:16:06.235998Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.1</name>
+<commit
+   revision="855337">
+<author>breser</author>
+<date>2005-07-05T22:39:16.114020Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.2.3</name>
+<commit
+   revision="855986">
+<author>breser</author>
+<date>2005-08-25T20:16:24.867590Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0</name>
+<commit
+   revision="858174">
+<author>offby1</author>
+<date>2006-01-14T01:29:07.500881Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc1</name>
+<commit
+   revision="857328">
+<author>danderson</author>
+<date>2005-11-08T16:56:56.175995Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc2</name>
+<commit
+   revision="857329">
+<author>danderson</author>
+<date>2005-11-08T16:58:34.523711Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc3</name>
+<commit
+   revision="857547">
+<author>danderson</author>
+<date>2005-11-21T22:29:15.357150Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc4</name>
+<commit
+   revision="857556">
+<author>danderson</author>
+<date>2005-11-22T19:16:34.559238Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc5</name>
+<commit
+   revision="857874">
+<author>danderson</author>
+<date>2005-12-15T16:46:33.849127Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc6</name>
+<commit
+   revision="858003">
+<author>danderson</author>
+<date>2005-12-24T00:02:45.278501Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.0-rc7</name>
+<commit
+   revision="858004">
+<author>danderson</author>
+<date>2005-12-24T00:05:00.758389Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.1</name>
+<commit
+   revision="859213">
+<author>danderson</author>
+<date>2006-04-03T20:20:34.816937Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.3.2</name>
+<commit
+   revision="869802">
+<date>2008-03-05T16:09:59.439022Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.0</name>
+<commit
+   revision="869787">
+<date>2008-03-05T16:09:35.541808Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.0-rc1</name>
+<commit
+   revision="869800">
+<date>2008-03-05T16:09:59.112364Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.0-rc2</name>
+<commit
+   revision="869801">
+<date>2008-03-05T16:09:59.271973Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.0-rc3</name>
+<commit
+   revision="869793">
+<date>2008-03-05T16:09:50.668844Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.0-rc4</name>
+<commit
+   revision="869798">
+<date>2008-03-05T16:09:58.771809Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.0-rc5</name>
+<commit
+   revision="869799">
+<date>2008-03-05T16:09:58.944876Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.2</name>
+<commit
+   revision="869795">
+<date>2008-03-05T16:09:55.182955Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.3</name>
+<commit
+   revision="869796">
+<date>2008-03-05T16:09:55.348522Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.4</name>
+<commit
+   revision="869788">
+<date>2008-03-05T16:09:36.082844Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.5</name>
+<commit
+   revision="869789">
+<date>2008-03-05T16:09:37.509142Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.4.6</name>
+<commit
+   revision="869797">
+<date>2008-03-05T16:09:56.358448Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0</name>
+<commit
+   revision="871859">
+<author>hwright</author>
+<date>2008-06-19T05:44:46.502610Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-alpha1</name>
+<commit
+   revision="870890">
+<author>hwright</author>
+<date>2008-04-28T20:59:56.156233Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-alpha2</name>
+<commit
+   revision="869794">
+<date>2008-03-05T16:09:54.588545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-beta1</name>
+<commit
+   revision="870030">
+<author>hwright</author>
+<date>2008-03-19T17:04:54.120661Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc1</name>
+<commit
+   revision="870891">
+<author>hwright</author>
+<date>2008-04-28T21:04:37.803315Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc10</name>
+<commit
+   revision="871746">
+<author>hwright</author>
+<date>2008-06-10T06:30:19.251849Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc11</name>
+<commit
+   revision="871775">
+<author>hwright</author>
+<date>2008-06-11T06:20:26.400644Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc2</name>
+<commit
+   revision="870892">
+<author>hwright</author>
+<date>2008-04-28T21:09:15.618448Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc3</name>
+<commit
+   revision="870893">
+<author>hwright</author>
+<date>2008-04-28T21:14:10.331086Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc4</name>
+<commit
+   revision="870845">
+<author>hwright</author>
+<date>2008-04-24T15:49:41.664393Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc5</name>
+<commit
+   revision="871088">
+<author>hwright</author>
+<date>2008-05-04T02:21:05.844421Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc6</name>
+<commit
+   revision="871504">
+<author>hwright</author>
+<date>2008-05-24T21:51:31.997638Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc7</name>
+<commit
+   revision="871515">
+<author>hwright</author>
+<date>2008-05-25T03:32:53.297079Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc8</name>
+<commit
+   revision="871582">
+<author>hwright</author>
+<date>2008-05-29T07:16:50.882356Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.0-rc9</name>
+<commit
+   revision="871660">
+<author>hwright</author>
+<date>2008-06-04T15:31:37.095127Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.1</name>
+<commit
+   revision="872368">
+<author>hwright</author>
+<date>2008-07-24T20:40:00.646721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.2</name>
+<commit
+   revision="872857">
+<author>hwright</author>
+<date>2008-08-28T13:48:34.964619Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.3</name>
+<commit
+   revision="873645">
+<author>hwright</author>
+<date>2008-10-09T05:16:33.065056Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.4</name>
+<commit
+   revision="873919">
+<author>hwright</author>
+<date>2008-10-22T14:37:20.939348Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.5</name>
+<commit
+   revision="874938">
+<author>hwright</author>
+<date>2008-12-19T19:58:27.425868Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.6</name>
+<commit
+   revision="876218">
+<author>hwright</author>
+<date>2009-02-25T19:01:32.873147Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.7</name>
+<commit
+   revision="878676">
+<author>hwright</author>
+<date>2009-08-06T20:19:28.894856Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.8</name>
+<commit
+   revision="1041130">
+<author>hwright</author>
+<date>2010-12-01T18:52:47.208592Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.5.9</name>
+<commit
+   revision="1041584">
+<author>hwright</author>
+<date>2010-12-02T21:17:19.335891Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.0</name>
+<commit
+   revision="876759">
+<author>hwright</author>
+<date>2009-03-19T20:11:52.163701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.0-rc1</name>
+<commit
+   revision="876035">
+<author>hwright</author>
+<date>2009-02-18T17:14:41.629917Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.0-rc2</name>
+<commit
+   revision="876093">
+<author>hwright</author>
+<date>2009-02-19T19:13:00.734808Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.0-rc3</name>
+<commit
+   revision="876324">
+<author>hwright</author>
+<date>2009-03-02T17:47:43.029930Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.0-rc4</name>
+<commit
+   revision="876725">
+<author>hwright</author>
+<date>2009-03-18T05:21:34.702046Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.1</name>
+<commit
+   revision="877206">
+<author>hwright</author>
+<date>2009-04-09T14:37:55.770316Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.10</name>
+<commit
+   revision="929662">
+<author>hwright</author>
+<date>2010-03-31T19:04:18.337815Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.11</name>
+<commit
+   revision="934490">
+<author>hwright</author>
+<date>2010-04-15T17:19:54.864858Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.12</name>
+<commit
+   revision="955802">
+<author>hwright</author>
+<date>2010-06-18T00:38:52.776366Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.13</name>
+<commit
+   revision="1002845">
+<author>hwright</author>
+<date>2010-09-29T21:13:54.890463Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.14</name>
+<commit
+   revision="1036188">
+<author>hwright</author>
+<date>2010-11-17T19:59:53.823090Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.15</name>
+<commit
+   revision="1038150">
+<author>hwright</author>
+<date>2010-11-23T15:01:31.636073Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.16</name>
+<commit
+   revision="1076783">
+<author>hwright</author>
+<date>2011-03-03T20:33:44.167942Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.17</name>
+<commit
+   revision="1403230">
+<author>philip</author>
+<date>2012-10-29T10:17:26.747335Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.18</name>
+<commit
+   revision="1304378">
+<author>stsp</author>
+<date>2012-03-23T14:41:31.232405Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.19</name>
+<commit
+   revision="1383986">
+<author>stsp</author>
+<date>2012-09-12T14:53:11.361205Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.2</name>
+<commit
+   revision="877714">
+<author>hwright</author>
+<date>2009-05-07T17:48:40.572098Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.20</name>
+<commit
+   revision="1426305">
+<author>breser</author>
+<date>2012-12-27T20:30:24.362520Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.21</name>
+<commit
+   revision="1462380">
+<author>breser</author>
+<date>2013-03-29T02:23:56.018357Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.22</name>
+<commit
+   revision="1485470">
+<author>stsp</author>
+<date>2013-05-22T22:32:27.570391Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.23</name>
+<commit
+   revision="1485521">
+<author>breser</author>
+<date>2013-05-23T00:58:26.569988Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.3</name>
+<commit
+   revision="878139">
+<author>hwright</author>
+<date>2009-06-18T03:23:04.346073Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.4</name>
+<commit
+   revision="878677">
+<author>hwright</author>
+<date>2009-08-06T20:22:42.566255Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.5</name>
+<commit
+   revision="878943">
+<author>hwright</author>
+<date>2009-08-20T04:21:56.571388Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.6</name>
+<commit
+   revision="901971">
+<author>cmpilato</author>
+<date>2010-01-22T03:39:03.696682Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.8</name>
+<commit
+   revision="899215">
+<author>hwright</author>
+<date>2010-01-14T14:32:03.779784Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.6.9</name>
+<commit
+   revision="901401">
+<author>hwright</author>
+<date>2010-01-20T22:08:30.621552Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0</name>
+<commit
+   revision="1181106">
+<author>hwright</author>
+<date>2011-10-10T18:05:37.770166Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-alpha1</name>
+<commit
+   revision="1131183">
+<author>hwright</author>
+<date>2011-06-03T20:12:01.894885Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-alpha2</name>
+<commit
+   revision="1137831">
+<author>hwright</author>
+<date>2011-06-21T00:32:27.737217Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-alpha3</name>
+<commit
+   revision="1145236">
+<author>hwright</author>
+<date>2011-07-11T16:43:09.217258Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-beta1</name>
+<commit
+   revision="1146395">
+<author>hwright</author>
+<date>2011-07-13T20:29:11.006651Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-beta2</name>
+<commit
+   revision="1149647">
+<author>hwright</author>
+<date>2011-07-22T16:35:25.450458Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-beta3</name>
+<commit
+   revision="1154055">
+<author>hwright</author>
+<date>2011-08-05T00:51:50.336672Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-rc1</name>
+<commit
+   revision="1159719">
+<author>hwright</author>
+<date>2011-08-19T18:00:23.269072Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-rc2</name>
+<commit
+   revision="1162184">
+<author>hwright</author>
+<date>2011-08-26T17:44:54.678994Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-rc3</name>
+<commit
+   revision="1167421">
+<author>hwright</author>
+<date>2011-09-10T00:42:29.580728Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.0-rc4</name>
+<commit
+   revision="1176480">
+<author>hwright</author>
+<date>2011-09-27T17:26:01.629880Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.1</name>
+<commit
+   revision="1186882">
+<author>hwright</author>
+<date>2011-10-20T16:13:33.172677Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.10</name>
+<commit
+   revision="1485473">
+<author>stsp</author>
+<date>2013-05-22T22:41:28.349114Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.11</name>
+<commit
+   revision="1503997">
+<author>breser</author>
+<date>2013-07-17T05:22:54.995391Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.12</name>
+<commit
+   revision="1516069">
+<author>breser</author>
+<date>2013-08-21T03:49:19.346769Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.13</name>
+<commit
+   revision="1516606">
+<author>breser</author>
+<date>2013-08-22T21:06:19.816797Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.14</name>
+<commit
+   revision="1542148">
+<author>breser</author>
+<date>2013-11-15T01:14:18.104670Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.15</name>
+<commit
+   revision="1565020">
+<author>breser</author>
+<date>2014-02-06T00:28:46.649032Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.16</name>
+<commit
+   revision="1569576">
+<author>breser</author>
+<date>2014-02-19T00:58:34.861146Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.17</name>
+<commit
+   revision="1591408">
+<author>breser</author>
+<date>2014-04-30T17:38:12.811248Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.18</name>
+<commit
+   revision="1615274">
+<author>breser</author>
+<date>2014-08-02T01:25:09.086709Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.19</name>
+<commit
+   revision="1644002">
+<author>breser</author>
+<date>2014-12-09T09:10:49.536067Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.2</name>
+<commit
+   revision="1208011">
+<author>hwright</author>
+<date>2011-11-29T18:33:09.983330Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.20</name>
+<commit
+   revision="1667556">
+<author>stsp</author>
+<date>2015-03-18T13:57:37.431854Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.21</name>
+<commit
+   revision="1692808">
+<author>brane</author>
+<date>2015-07-27T05:12:25.495432Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.22</name>
+<commit
+   revision="1694157">
+<author>stsp</author>
+<date>2015-08-05T09:46:06.876930Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.3</name>
+<commit
+   revision="1242838">
+<author>hwright</author>
+<date>2012-02-10T16:16:17.509352Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.4</name>
+<commit
+   revision="1296351">
+<author>stsp</author>
+<date>2012-03-02T17:45:41.339492Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.5</name>
+<commit
+   revision="1492694">
+<author>philip</author>
+<date>2013-06-13T14:50:14.358566Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.6</name>
+<commit
+   revision="1376418">
+<author>philip</author>
+<date>2012-08-23T09:31:22.434347Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.7</name>
+<commit
+   revision="1393927">
+<author>breser</author>
+<date>2012-10-04T06:13:24.213023Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.8</name>
+<commit
+   revision="1419826">
+<author>breser</author>
+<date>2012-12-10T22:01:28.956828Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.7.9</name>
+<commit
+   revision="1462395">
+<author>breser</author>
+<date>2013-03-29T04:32:37.572664Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.0</name>
+<commit
+   revision="1492600">
+<author>breser</author>
+<date>2013-06-13T09:38:51.795681Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.0-rc1</name>
+<commit
+   revision="1479009">
+<author>breser</author>
+<date>2013-05-03T23:42:26.066020Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.0-rc2</name>
+<commit
+   revision="1482526">
+<author>breser</author>
+<date>2013-05-14T19:13:40.357602Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.0-rc3</name>
+<commit
+   revision="1490432">
+<author>breser</author>
+<date>2013-06-06T20:40:40.359813Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.1</name>
+<commit
+   revision="1516502">
+<author>breser</author>
+<date>2013-08-22T16:27:30.429052Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.10</name>
+<commit
+   revision="1615276">
+<author>breser</author>
+<date>2014-08-02T01:26:13.698690Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.11</name>
+<commit
+   revision="1691961">
+<author>julianfoad</author>
+<date>2015-07-20T15:15:24.391724Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.12</name>
+<commit
+   revision="1667497">
+<author>stsp</author>
+<date>2015-03-18T11:08:02.702276Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.13</name>
+<commit
+   revision="1667548">
+<author>stsp</author>
+<date>2015-03-18T13:36:18.676093Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.14</name>
+<commit
+   revision="1692820">
+<author>brane</author>
+<date>2015-07-27T06:44:49.418984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.15</name>
+<commit
+   revision="1718529">
+<author>kotkov</author>
+<date>2015-12-08T08:37:34.919932Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.16</name>
+<commit
+   revision="1740353">
+<author>kotkov</author>
+<date>2016-04-21T16:36:38.463456Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.17</name>
+<commit
+   revision="1770700">
+<author>kotkov</author>
+<date>2016-11-21T15:24:18.165324Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.18</name>
+<commit
+   revision="1800622">
+<author>stsp</author>
+<date>2017-07-03T10:48:25.358707Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.19</name>
+<commit
+   revision="1804730">
+<author>philip</author>
+<date>2017-08-10T21:16:43.366212Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.2</name>
+<commit
+   revision="1516080">
+<author>breser</author>
+<date>2013-08-21T04:24:46.327514Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.3</name>
+<commit
+   revision="1516638">
+<author>breser</author>
+<date>2013-08-22T22:07:48.081337Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.4</name>
+<commit
+   revision="1534745">
+<author>breser</author>
+<date>2013-10-22T19:31:20.704067Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.5</name>
+<commit
+   revision="1542156">
+<author>breser</author>
+<date>2013-11-15T02:11:19.339608Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.6</name>
+<commit
+   revision="1565091">
+<author>breser</author>
+<date>2014-02-06T06:54:53.740236Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.7</name>
+<commit
+   revision="1567763">
+<author>breser</author>
+<date>2014-02-12T21:33:46.292434Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.8</name>
+<commit
+   revision="1568156">
+<author>breser</author>
+<date>2014-02-13T23:40:49.589769Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.8.9</name>
+<commit
+   revision="1591435">
+<author>breser</author>
+<date>2014-04-30T18:20:04.100704Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0</name>
+<commit
+   revision="1692833">
+<author>brane</author>
+<date>2015-07-27T08:31:11.932708Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0-alpha1</name>
+<commit
+   revision="1567851">
+<author>breser</author>
+<date>2014-02-13T06:26:28.228295Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0-alpha2</name>
+<commit
+   revision="1573955">
+<author>breser</author>
+<date>2014-03-04T09:21:34.478677Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0-beta1</name>
+<commit
+   revision="1664528">
+<author>breser</author>
+<date>2015-03-06T00:01:50.282010Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0-rc1</name>
+<commit
+   revision="1675191">
+<author>breser</author>
+<date>2015-04-21T19:59:47.906920Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0-rc2</name>
+<commit
+   revision="1682799">
+<author>breser</author>
+<date>2015-05-31T21:25:24.293570Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.0-rc3</name>
+<commit
+   revision="1689324">
+<author>brane</author>
+<date>2015-07-06T07:04:51.122641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.1</name>
+<commit
+   revision="1698174">
+<author>brane</author>
+<date>2015-08-27T14:45:20.465305Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.2</name>
+<commit
+   revision="1703885">
+<author>kotkov</author>
+<date>2015-09-18T15:26:59.333001Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.3</name>
+<commit
+   revision="1718531">
+<author>kotkov</author>
+<date>2015-12-08T08:38:02.024990Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.4</name>
+<commit
+   revision="1740355">
+<author>kotkov</author>
+<date>2016-04-21T16:37:24.572072Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.5</name>
+<commit
+   revision="1770702">
+<author>kotkov</author>
+<date>2016-11-21T15:24:38.657860Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.6</name>
+<commit
+   revision="1800398">
+<author>danielsh</author>
+<date>2017-06-30T12:59:41.791524Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.7</name>
+<commit
+   revision="1804706">
+<author>danielsh</author>
+<date>2017-08-10T19:01:05.092751Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.8</name>
+<commit
+   revision="1835800">
+<author>julianfoad</author>
+<date>2018-07-13T09:28:10.808482Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>1.9.9</name>
+<commit
+   revision="1835933">
+<author>julianfoad</author>
+<date>2018-07-14T20:43:40.083753Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>ebcdic</name>
+<commit
+   revision="869792">
+<date>2008-03-05T16:09:42.670677Z</date>
+</commit>
+</entry>
+</list>
+</lists>
