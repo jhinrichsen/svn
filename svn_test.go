@@ -9,7 +9,7 @@ import (
 
 // TestSvnList requires network access to svn.apache.org
 func TestSvnList(t *testing.T) {
-	filename := "testdata/svn/list_apache_subversion_tags.xml"
+	filename := "testdata/list_apache_subversion_tags.xml"
 	f, err := ioutil.ReadFile(filename)
 	if err != nil {
 		t.Fatal(err)
