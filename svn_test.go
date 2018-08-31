@@ -3,6 +3,7 @@ package svn
 import (
 	"encoding/xml"
 	"io/ioutil"
+	"os"
 	"testing"
 	"time"
 )
@@ -21,15 +22,23 @@ func firstEntry() Entry {
 	}
 }
 
-// TestSvnList requires network access to svn.apache.org
-func TestOfflineList(t *testing.T) {
+func listSample() (*ListElement, error) {
 	filename := "testdata/list_apache_subversion_tags.xml"
 	f, err := ioutil.ReadFile(filename)
 	if err != nil {
-		t.Fatal(err)
+		return nil, err
 	}
 	var l ListElement
 	if err := xml.Unmarshal(f, &l); err != nil {
+		return nil, err
+	}
+	return &l, nil
+}
+
+// TestSvnList requires network access to svn.apache.org
+func TestOfflineList(t *testing.T) {
+	l, err := listSample()
+	if err != nil {
 		t.Fatal(err)
 	}
 
@@ -54,11 +63,23 @@ func TestOnlineList(t *testing.T) {
 	}
 	want := firstEntry()
 	r := NewRepository("https://svn.apache.org/repos/asf/subversion")
-	got, err := r.List("tags")
+	got, err := r.List("tags", os.Stdout)
 	if err != nil {
 		t.Fatal(err)
 	}
 	if want != got[0] {
 		t.Fatalf("want %q but got %q\n", want, got)
+	}
+}
+
+func TestSince(t *testing.T) {
+	want := 99
+	l, err := listSample()
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := len(Since(l.Entries, time.Date(2010, 1, 1, 0, 0, 0, 0, time.UTC)))
+	if want != got {
+		t.Fatalf("want %d but got %d\n", want, got)
 	}
 }

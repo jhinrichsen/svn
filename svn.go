@@ -1,8 +1,10 @@
 package svn
 
 import (
+	"bytes"
 	"encoding/xml"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"os/exec"
@@ -48,12 +50,16 @@ func (a *Repository) FullPath(relpath string) string {
 	return fmt.Sprintf("%s/%s", a.Location, relpath)
 }
 
-// List will execute an `svn list` subcommand
-func (a *Repository) List(relpath string) ([]Entry, error) {
+// List will execute an `svn list` subcommand.
+// Any non-nil xmlWriter will receive the XML content
+func (a *Repository) List(relpath string, xmlWriter io.Writer) ([]Entry, error) {
 	log.Printf("listing %s\n", relpath)
 	fp := a.FullPath(relpath)
 	cmd := exec.Command("svn", "list", "--xml", fp)
 	buf, err := cmd.CombinedOutput()
+	if xmlWriter != nil {
+		io.Copy(xmlWriter, bytes.NewReader(buf))
+	}
 	if err != nil {
 		fmt.Fprintf(os.Stdout, "%s", buf)
 		return nil, fmt.Errorf("Cannot list %s: %s", fp, err)
@@ -63,4 +69,15 @@ func (a *Repository) List(relpath string) ([]Entry, error) {
 		return nil, fmt.Errorf("cannot parse XML: %s: %s", buf, err)
 	}
 	return l.Entries, nil
+}
+
+// Since returns all entries created after t
+func Since(entries []Entry, t time.Time) []Entry {
+	var es []Entry
+	for _, e := range entries {
+		if e.Commit.Date.After(t) {
+			es = append(es, e)
+		}
+	}
+	return es
 }
