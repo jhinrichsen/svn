@@ -107,7 +107,15 @@ func TestExportOnline(t *testing.T) {
 	}()
 	into := filepath.Join(d, "notes.txt")
 	from := "tags/1.9.9/CHANGES"
-	if err := r.Export(from, into, os.Stdout, make(chan string)); err != nil {
+	c := make(chan string)
+	go func(nc chan string) {
+		want := into
+		got := <-nc
+		if want != got {
+			t.Fatalf("want %q but got %q\n", want, got)
+		}
+	}(c)
+	if err := r.Export(from, into, os.Stdout, c); err != nil {
 		t.Fatalf("error exporting %s into %s: %s", from, into, err)
 	}
 
