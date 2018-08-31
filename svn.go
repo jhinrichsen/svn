@@ -1,6 +1,7 @@
 package svn
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/xml"
 	"fmt"
@@ -8,6 +9,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"strings"
 	"time"
 )
 
@@ -72,17 +74,7 @@ func (a *Repository) List(relpath string, xmlWriter io.Writer) ([]Entry, error) 
 	return l.Entries, nil
 }
 
-// Since returns all entries created after t
-func Since(entries []Entry, t time.Time) []Entry {
-	var es []Entry
-	for _, e := range entries {
-		if e.Commit.Date.After(t) {
-			es = append(es, e)
-		}
-	}
-	return es
-}
-
+// Export will execute an `svn export` subcommand.
 func (a *Repository) Export(relpath string, into string, w io.Writer) error {
 	log.Printf("exporting %s\n", relpath)
 	fp := a.FullPath(relpath)
@@ -98,4 +90,37 @@ func (a *Repository) Export(relpath string, into string, w io.Writer) error {
 		return fmt.Errorf("Cannot export %s into %s: %s", fp, into, err)
 	}
 	return nil
+}
+
+// Notify  will report incoming exported filenames to notifier channel
+// channel will be closed once EOF is read
+func ExportNotifier(r io.Reader, c chan string) {
+	sc := bufio.NewScanner(r)
+	for sc.Scan() {
+		line := sc.Text()
+		parts := strings.Fields(line)
+		if len(parts) == 2 {
+			col1 := strings.TrimSpace(parts[0])
+			if col1 != "A" {
+				log.Printf("ignoring line because of unknown prefix %q\n", col1)
+				continue
+			}
+			filename := strings.TrimSpace(parts[1])
+			c <- filename
+		} else {
+			log.Printf("ignoring line %q\n", line)
+		}
+	}
+	close(c)
+}
+
+// Since returns all entries created after t
+func Since(entries []Entry, t time.Time) []Entry {
+	var es []Entry
+	for _, e := range entries {
+		if e.Commit.Date.After(t) {
+			es = append(es, e)
+		}
+	}
+	return es
 }

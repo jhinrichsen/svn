@@ -2,7 +2,9 @@ package svn
 
 import (
 	"encoding/xml"
+	"io"
 	"io/ioutil"
+	"log"
 	"os"
 	"path/filepath"
 	"strings"
@@ -119,5 +121,39 @@ func TestExportOnline(t *testing.T) {
 	got := string(buf)
 	if !strings.HasPrefix(got, want) {
 		t.Fatalf("want %s but got %s\n", want, got)
+	}
+}
+
+func TestExportChannelOnline(t *testing.T) {
+	if testing.Short() {
+		t.Skip("skipping online test in short mode.")
+	}
+	r := svnRepo()
+	d, err := ioutil.TempDir("", "svntest-")
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer func() {
+		if err := os.RemoveAll(d); err != nil {
+			t.Fatalf("error cleaning up %s: %s", d, err)
+		}
+	}()
+
+	from := "tags/1.9.9"
+	into := filepath.Join(d, "1.9.9")
+
+	// Prepare multiwriter including export channel
+	ec := make(chan string)
+	pr, pw := io.Pipe()
+	mw := io.MultiWriter(os.Stdout, pw)
+	go ExportNotifier(pr, ec)
+	go func() {
+		if err := r.Export(from, into, mw); err != nil {
+			t.Fatal(err)
+		}
+		pw.Close()
+	}()
+	for filename := range ec {
+		log.Printf("exported %s\n", filename)
 	}
 }
