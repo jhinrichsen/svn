@@ -1,4 +1,4 @@
-package main
+package svn
 
 import (
 	"encoding/xml"
