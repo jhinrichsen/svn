@@ -48,6 +48,7 @@ func main() {
 			os.Exit(2)
 		}
 	}
+	log.Printf("looking for entries newer than %s\n", t)
 	for _, url := range flag.Args() {
 		es, err := r.List(url, ioutil.Discard)
 		if err != nil {
