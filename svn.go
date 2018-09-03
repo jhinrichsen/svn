@@ -54,14 +54,14 @@ func (a *Repository) FullPath(relpath string) string {
 
 // List will execute an `svn list` subcommand.
 // Any non-nil xmlWriter will receive the XML content
-func (a *Repository) List(relpath string, xmlWriter io.Writer) ([]Entry, error) {
+func (a *Repository) List(relpath string, w io.Writer) ([]Entry, error) {
 	log.Printf("listing %s\n", relpath)
 	fp := a.FullPath(relpath)
 	cmd := exec.Command("svn", "list", "--xml", fp)
 	log.Printf("executing %+v\n", cmd)
 	buf, err := cmd.CombinedOutput()
-	if xmlWriter != nil {
-		io.Copy(xmlWriter, bytes.NewReader(buf))
+	if w != nil {
+		io.Copy(w, bytes.NewReader(buf))
 	}
 	if err != nil {
 		fmt.Fprintf(os.Stdout, "%s", buf)
