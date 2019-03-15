@@ -6,6 +6,8 @@ image:https://golangci.com/badges/github.com/jhinrichsen/svn.svg["Golang CI", li
 
 = svn
 
+__This repository is dead/ frozen. Use https://gitlab.com/jhinrichsen/svnw instead.__
+
 Wrapper for Apache Subversion. Uses svn's `xml` output instead of native C bindings.
 Calls external `svn` command, so you need a working Subversion client executable for your platform.
 Avoids CGO, and the hassle around `libsvn1`, `libapr1`, `libaprutil1`, `libc6`, `libsasl2`, `db5.3-util` e.a.
